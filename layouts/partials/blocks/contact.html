@@ -163,8 +163,8 @@
   </div>
   <div id="map"></div>
 
-  {{ with $block.content.text }}{{ . | emojify | $page.RenderString }}{{ end }}
-
   {{ end }}
+
+  {{ with $block.content.text }}{{ . | emojify | $page.RenderString }}{{ end }}
 
 </div>

@@ -39,22 +39,20 @@ content:
   #    link: 'https://discourse.gohugo.io'
 
   # Automatically link email and phone or display as text?
-  autolink: true
+  autolink: false
 
   # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  # form:
+  #   provider: netlify
+  #   formspree:
+  #     id:
+  #   netlify:
+  #     # Enable CAPTCHA challenge to reduce spam?
+  #     captcha: false
 
 design:
   columns: '2'
 ---
-
-![SU](SU.jpg)
 
 > I respectfully acknowledge that UQAM is located on unceded Indigenous lands. The Kanien’kehá:ka Nation is recognized as the custodians of these lands and waters. Tiohtià:ke/Montréal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. I respect the continued connections with the past, present and future in our ongoing relationships with Indigenous and other peoples within the Montreal community.
 > 
