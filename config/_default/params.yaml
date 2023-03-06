@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night: minimal
+  #theme_night: minimal
   font: minimal
   font_size: L
 
@@ -17,11 +17,11 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Université du Québec à Montréal'
+    description: "A PhD student's journey to making a difference in the world, one mind at a time."
+    twitter: 'rempsyc'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-162599761-3'
     baidu_tongji: ''
   verification:
     google: ''
@@ -34,7 +34,7 @@ header:
     enable: true
     align: l
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -43,17 +43,17 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: # '© {year} Me. This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2006-01-02'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -94,8 +94,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: 'google'
+    api_key: '' # An API key is necessary for Google but I have specified it on Netlify as a private variable
     zoom: 15
 
 # Extensions
